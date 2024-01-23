@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h4>Price Calculator</h4>
+            <p style="color: red;">* Required Fields</p>
+        </div>
+    
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="type" class="form-label">Product<small style="color: red;">*</small></label>
+                            </div>
+                            <div class="col-md-9">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">Apple</option>
+                                    <option value="2">King-coconut</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="type" class="form-label">Quantity<small style="color: red;">*</small></label>
+                            </div>
+                            <div class="col-md-9">
+                                <!-- For cartons -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Cartons</span>
+                                    </div>
+                                    <input type="number" class="form-control" placeholder="Enter carton quantity">
+                                </div>
+    
+                                <!-- For Single units -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Singles</span>
+                                    </div>
+                                    <input type="number" class="form-control" placeholder="Enter single unit quantity">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button type="submit" class="btn btn-success btn-block">Calculate</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
