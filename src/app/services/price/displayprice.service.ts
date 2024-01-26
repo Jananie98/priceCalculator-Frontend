@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 })
 
 export class DisplayPriceService{
-    constructor(private _http: HttpClient){}
+    // constructor(private _http: HttpClient){}
 
     // this function should get the values from db depending on product type
     // base value and carton quantity
