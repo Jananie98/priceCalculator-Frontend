@@ -9,8 +9,5 @@ import { Observable } from "rxjs";
 export class ProductService{
     constructor(private _http: HttpClient){
 
-    getProducts(): Observable<any>{
-         return this._http.get('http://localhost:3000/api/v1/item/list');
-    }
     }
 }
