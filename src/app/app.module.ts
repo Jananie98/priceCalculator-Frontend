@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TableComponent } from './table/table.component';
 import { PriceCalculatorComponent } from './price-calculator/price-calculator.component';
+import { HttpClientModule } from '@angular/common/http'
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { PriceCalculatorComponent } from './price-calculator/price-calculator.co
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     // Other modules go here
   ],
   providers: [],
